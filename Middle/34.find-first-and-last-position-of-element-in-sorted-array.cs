@@ -31,3 +31,6 @@ public class Solution
 }
 // @lc code=end
 
+// 88/88 cases passed (178 ms)
+// Your runtime beats 6.28 % of csharp submissions
+// Your memory usage beats 78.63 % of csharp submissions (44.8 MB)
