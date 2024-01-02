@@ -19,9 +19,8 @@ public class Solution
         {
             return 1;
         }
-        int totalStep = n + m - 2;
 
-        return Convert.ToInt32(CalcuToEnd(totalStep, m) / CalcuToEnd(n - 1, 1));
+        return Convert.ToInt32(CalcuToEnd(n + m - 2, m) / CalcuToEnd(n - 1, 1));
 
     }
 
@@ -42,4 +41,4 @@ public class Solution
 
 // 63/63 cases passed (14 ms)
 // Your runtime beats 97.9 % of csharp submissions
-// Your memory usage beats 60.36 % of csharp submissions (26.7 MB)
+// Your memory usage beats 98.46 % of csharp submissions (26.2 MB)
