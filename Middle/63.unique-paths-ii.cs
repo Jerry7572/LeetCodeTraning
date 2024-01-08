@@ -7,11 +7,11 @@
 // @lc code=start
 public class Solution
 {
-// 0 0 0 0 0  1 1  1  1  1        8 7 6 5
-// 0 0 0 0 0  1 2  3  4  5                4 3 2 1
-// 0 0 0 0 0  1 3  6 10 15
-// 0 0 0 0 0  1 4 10 20 35
-// 0 0 0 0 0  1 5 15 35 70
+    // 0 0 0 0 0  1 1  1  1  1        8 7 6 5
+    // 0 0 0 0 0  1 2  3  4  5                4 3 2 1
+    // 0 0 0 0 0  1 3  6 10 15
+    // 0 0 0 0 0  1 4 10 20 35
+    // 0 0 0 0 0  1 5 15 35 70
     public int UniquePathsWithObstacles(int[][] obstacleGrid)
     {
         int[][] obstacleGridTemp = obstacleGrid.Select(row => row.ToArray()).ToArray();
